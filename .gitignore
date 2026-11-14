@@ -1,0 +1,16 @@
+# GitHub and project artifacts
+# *.git  # removed to avoid ignoring the repository directory
+# XAMPP logs and temp files
+temp/
+logs/
+# Database dumps or SQL scripts
+# /database/*.sql  # removed to allow versioning of schema.sql if needed
+# Node modules if any (not used yet)
+node_modules/
+# IDE settings
+.vscode/
+# OS files
+.DS_Store
+Thumbs.db
+# Environment variables – should never be committed
+.env

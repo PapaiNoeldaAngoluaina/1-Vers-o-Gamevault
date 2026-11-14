@@ -1,0 +1,16 @@
+# GitHub and project artifacts
+*.git
+# XAMPP logs and temp files
+temp/
+logs/
+# Database dumps or SQL scripts
+/database/*.sql
+# Node modules if any (not used yet)
+node_modules/
+# IDE settings
+.vscode/
+# OS files
+.DS_Store
+Thumbs.db
+# Environment variables – should never be committed
+.env
